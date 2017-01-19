@@ -52,7 +52,16 @@ Instructions to install PlantUML onto MacOS and run it with Visual Studio Code.
 
 ## Integrate with Visual Studio Code 
 
-_Coming Soon_
+1. Download and install [Visual Studio Code](//code.visualstudio.com) if you do not already have it.
+1. Open Visual Studio Code.
+1. Open the Extenions panel by clicking the Extensions icon on the left toolbar or by pressing Cmd+Shift+P and entering `ext install` in the search box.
+1. Search for and install the extension `okazuki PlantUML`. There are others, but this is the extension targetted by these instructions. I may review one of the others in the future.
+1. Restart Visual Studio Code.
+
+## Your First Diagram in Visual Studio Code
+
+1. Open [test.txt](test.txt)
+1. Press Cmd+Shift+P, type `plantuml preview`, and press Enter.
 
 ## References
  - [HomeBrew](//brew.sh)
