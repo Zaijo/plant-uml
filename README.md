@@ -1,4 +1,4 @@
-# Install Plant-uml on MacOS
+# Install PlantUML on MacOS
 
 Instructions to install PlantUML onto MacOS and run it with Visual Studio Code.
 
@@ -19,7 +19,7 @@ Instructions to install PlantUML onto MacOS and run it with Visual Studio Code.
   
 1. Download [plantuml.jar](//sourceforge.net/projects/plantuml/files/plantuml.jar/download)
 1. Copy plantuml.jar to a local folder (e.g., `mkdir -p ~/bin/plantuml && cp ~/Downloads/plantuml.jar ~/bin/plantuml`)
-1. Install Graphviz (Plant UML depends on this for some of its graphing capabilities).
+1. Install Graphviz (PlantUML depends on this for some of its graphing capabilities).
 
   ```sh
   brew install graphviz
@@ -38,7 +38,22 @@ Instructions to install PlantUML onto MacOS and run it with Visual Studio Code.
   
 ## Test your installation 
 
-_Coming soon_
+1. Create a file call test.txt with the following contents:
+
+  ```
+  @startuml
+  Alice -> Bob: test
+  @enduml 
+  ```
+
+1. Enter the following command:
+
+  ```sh
+  java -jar $PLANTUML_JAR test.txt && open test.png
+  ```
+  
+1. You should see an image like this one:
+
 
 ## Integrate with Visual Studio Code 
 
