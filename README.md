@@ -38,13 +38,7 @@ Instructions to install PlantUML onto MacOS and run it with Visual Studio Code.
   
 ## Test your installation 
 
-1. Create a file call test.txt with the following contents:
-
-  ```
-  @startuml
-  Alice -> Bob: test
-  @enduml 
-  ```
+1. Create a local folder and copy the [test file](test.txt) into it:
 
 1. Enter the following command:
 
@@ -54,6 +48,7 @@ Instructions to install PlantUML onto MacOS and run it with Visual Studio Code.
   
 1. You should see an image like this one:
 
+  ![Image of test diagram](assets/test.png)
 
 ## Integrate with Visual Studio Code 
 
