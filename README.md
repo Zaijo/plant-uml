@@ -29,7 +29,7 @@ Instructions to install PlantUML onto MacOS and run it with Visual Studio Code.
 
   ```sh
   export JAVA_HOME='/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home'
-  export PLANTUML_JAR='$HOME/bin/plantuml/plantuml.jar'
+  export PLANTUML_JAR="$HOME/bin/plantuml/plantuml.jar"
   export GRAPHVIZ_DOT='/usr/local/bin/dot'
   ```
   
